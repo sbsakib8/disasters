@@ -2,7 +2,7 @@ import React from 'react'
 import Deshboarddata from '../data/dashboard/Dashboarddata'
 function Cord() {
   return (
-    <>
+    <div className='dashboard'>
        {
         Deshboarddata.map((item) => (
           <div className=' w-[306px] h-[337px]' key={item.id}>
@@ -13,7 +13,7 @@ function Cord() {
           </div>
         ))
        }
-    </>
+    </div>
   )
 }
 
