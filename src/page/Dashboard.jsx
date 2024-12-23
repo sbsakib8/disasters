@@ -1,9 +1,10 @@
 import React from 'react'
+import Cord from '../component/Cord'
 
 function Dashboard() {
   return (
     <>
-       <h2 className=' font-onest text-primary container'>sb sakib sarkar</h2>
+      <Cord/>
     </>
   )
 }

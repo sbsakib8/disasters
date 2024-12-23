@@ -12,7 +12,9 @@ export default {
       colors: {
         primary: '#F26922',
         secondary: '#F4F4F5',
-        navber: '#E4E4E7'
+        navber: '#E4E4E7',
+        blackColor: '#09090B',
+        paragraphColor:'#71717A'
        
       },
       
