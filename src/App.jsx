@@ -1,15 +1,14 @@
 
 import './App.css'
-import Startcord from './component/Startcord'
-import Dashboard from './page/Dashboard'
+import Incident from './component/Incident'
+
 
 function App() {
   
 
   return (
     <>
-    <Dashboard/>
-    <Startcord/>
+    <Incident/>
     </>
   )
 }

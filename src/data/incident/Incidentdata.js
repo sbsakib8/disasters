@@ -82,7 +82,7 @@ const Incidentdata =[
     {
         id: 17,
         icon: '/img/icon/icon15.png',
-        title: 'Volcanic Eruption',
+        title: 'Volcanic ',
     },
     {
         id: 18,

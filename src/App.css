@@ -20,14 +20,16 @@
     }
     .cordtitle,
     .cordmoney,
-    .startcordtitle{
+    .startcordtitle,
+    .incident_title{
         @apply  text-blackColor font-bold text-[16px] leading-[30px] text-wrap;
     }
     .cordtext{
         @apply text-paragraphColor text-[14px] leading-[30px] font-normal text-wrap;
     }
     /* start cord section  */
-    .startcordtitle{
+    .startcordtitle,
+    .incident_title{
         @apply text-[32px] text-center;
     }
     .startcordparagraph{
@@ -41,5 +43,15 @@
     }
     .cordp{
         @apply max-w-[195px] text-[14px] md:text-[16px] leading-[26px] text-wrap text-paragraphColor;
+    }
+    /* incident section  */
+    .incident_div{
+        @apply  grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-y-5 gap-x-4 mt-10;
+    }
+    .incident_icon_div{
+        @apply  bg-secondary w-[180px] h-[69px] rounded-lg py-6 px-5 hover:bg-[#F26922] ;
+    }
+    .incident_text{
+        @apply  inline-block ml-5 font-normal text-wrap text-[14px] text-paragraphColor;
     }
 }
