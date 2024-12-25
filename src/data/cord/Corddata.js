@@ -17,7 +17,7 @@ const Corddata = [
         id: 3,
         icon: 'img/icon/Frame (2).png',
         title: 'Where did the incident occur',
-        text: "Choose the category that best describes the incident.Lorem ipsum dolar sit general sac mascho werho"
+        text: "Lorem ipsum dolar sit general sac mascho werho"
     },
 ]
 export default Corddata; 

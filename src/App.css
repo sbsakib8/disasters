@@ -14,14 +14,32 @@
 }
 
 @layer utilities {
+    /* deshdord cord section */
     .dashboard{
         @apply  container grid lg:grid-cols-3 gap-2 py-6 md:grid-cols-2 grid-cols-1 justify-center content-center gap-y-10 w-full ;
     }
     .cordtitle,
-    .cordmoney{
-        @apply  text-blackColor font-bold text-[16px] leading-[30px];
+    .cordmoney,
+    .startcordtitle{
+        @apply  text-blackColor font-bold text-[16px] leading-[30px] text-wrap;
     }
     .cordtext{
-        @apply text-paragraphColor text-[14px] leading-[30px] font-normal;
+        @apply text-paragraphColor text-[14px] leading-[30px] font-normal text-wrap;
+    }
+    /* start cord section  */
+    .startcordtitle{
+        @apply text-[32px] text-center;
+    }
+    .startcordparagraph{
+        @apply font-normal text-center w-[468px] h-[37px] text-paragraphColor text-wrap;
+    }
+    .startcord{
+        @apply  w-[235px] h-[269px] bg-secondary py-6 px-5 rounded-xl shadow-md transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:shadow-lg duration-300 space-y-10 ;
+    }
+    .cordh2{
+       @apply text-[17px] md:text-[20px] font-bold max-w-[190px] leading-[29px] text-wrap text-blackColor mb-3;
+    }
+    .cordp{
+        @apply max-w-[195px] text-[14px] md:text-[16px] leading-[26px] text-wrap text-paragraphColor;
     }
 }

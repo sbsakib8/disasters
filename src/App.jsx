@@ -1,5 +1,6 @@
 
 import './App.css'
+import Startcord from './component/Startcord'
 import Dashboard from './page/Dashboard'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
     <Dashboard/>
+    <Startcord/>
     </>
   )
 }
