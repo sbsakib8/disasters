@@ -1,6 +1,8 @@
 
 import './App.css'
-import Incident from './component/Incident'
+import Newincident from './component/Newincident'
+
+
 
 
 function App() {
@@ -8,7 +10,7 @@ function App() {
 
   return (
     <>
-    <Incident/>
+     <Newincident/>
     </>
   )
 }

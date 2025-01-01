@@ -21,7 +21,8 @@
     .cordtitle,
     .cordmoney,
     .startcordtitle,
-    .incident_title{
+    .incident_title,
+    .newincident_title{
         @apply  text-blackColor font-bold text-[16px] leading-[30px] text-wrap;
     }
     .cordtext{
@@ -29,10 +30,12 @@
     }
     /* start cord section  */
     .startcordtitle,
-    .incident_title{
+    .incident_title,
+    .newincident_title{
         @apply text-[32px] text-center;
     }
-    .startcordparagraph{
+    .startcordparagraph,
+    .newincident_paragraph{
         @apply font-normal text-center w-[468px] h-[37px] text-paragraphColor text-wrap;
     }
     .startcord{
